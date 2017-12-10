@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="md_keylines">6dp</dimen>
+    <dimen name="card_image_height">250dp</dimen>
+    <dimen name="card_title_height">40dp</dimen>
+    <dimen name="cards_button_width">20dp</dimen>
+    <dimen name="cards_button_height">200dp</dimen>
+    <dimen name="article_subheading">15dp</dimen>
+    <dimen name="avator_size">110dp</dimen>
+    <dimen name="list_body">10dp</dimen>
+</resources>

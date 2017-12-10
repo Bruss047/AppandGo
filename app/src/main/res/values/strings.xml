@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="action_settings">main</string>
+    <string name="item_title">value</string>
+    <string name="item_desc">desc</string>
+</resources>
