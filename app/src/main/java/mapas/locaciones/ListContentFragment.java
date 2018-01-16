@@ -25,10 +25,6 @@ public class ListContentFragment extends Fragment {
 
     Posicion Al = new Posicion (-34.742232,-58.417904);
 
-
-
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -68,15 +64,15 @@ public class ListContentFragment extends Fragment {
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> {
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 7;
+        private static final int LENGTH = 6;
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
         private final Drawable[] mPlaceAvators;
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
 
-            mPlaces = resources.getStringArray(R.array.places);
-            mPlaceDesc = resources.getStringArray(R.array.place_desc);
+            mPlaces = resources.getStringArray(R.array.items);
+            mPlaceDesc = resources.getStringArray(R.array.descripcion_breve);
             TypedArray a = resources.obtainTypedArray(R.array.place_avator);
             mPlaceAvators = new Drawable[a.length()];
             for (int i = 0; i < mPlaceAvators.length; i++) {

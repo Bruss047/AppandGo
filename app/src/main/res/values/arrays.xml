@@ -16,7 +16,16 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string-array name="places">
+    <string-array name="recomendaciones">
+        <item>Pertutti</item>
+        <item>Los Cardales</item>
+        <item>Tienda del Café</item>
+        <item>Wagon</item>
+        <item>Cine</item>
+        <item>Futbol</item>
+    </string-array>
+
+    <string-array name="items">
         <item>Desayuno</item>
         <item>Almuerzo</item>
         <item>Merienda</item>
@@ -24,83 +33,168 @@
         <item>Cine</item>
         <item>Futbol</item>
     </string-array>
-    <string-array name="place_desc">
+
+    <string-array name="descripcion_breve">
         <item>Elegí donde vas a desayunar entre todos
         los sitios que te proponemos.</item>
-        <item> asdsdsdsd</item>
-        <item>Manhattan is the district in New York City</item>
-        <item>Senso-ji is the Shrine locates in Asakusa Tokyo</item>
-        <item>Sultan Ahmed Mosque is mosque locates in Istabul, Turkey</item>
-        <item>Table Mountain is mountain and park locates in Cape Town, South Africa.</item>
+        <item> Elegí donde vas a almorzar entre todos
+        los sitios que te proponemos.</item>
+        <item>Elegí donde vas a merendar entre todos
+        los sitios que te proponemos.</item>
+        <item>Elegí donde vas a cenar entre todos
+        los sitios que te proponemos.</item>
+        <item>Elegí donde vas a ver tu película entre todos
+        los sitios que te proponemos.</item>
+        <item>Elegí una cancha de entre todas
+        las disponibles.</item>
     </string-array>
-    <string-array name="place_details">
-        <item>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-            AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+    <string-array name="detalles_lugar">
+        <item>!Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
+
         </item>
-        <item>BBBBBBBBBBBBBBBBBBBBBBBBBB
-            BBBBBBBBBBBBBBBBBBBBBBBBBBBBB
+        <item>!Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
         </item>
-        <item>CCCCCCCCCCCCCCCCCCCCCCCCCCCCC
-            CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+        <item>!Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
         </item>
-        <item>DDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-            DDDDDDDDDDDDDDDDDDDDDDDDDD
+        <item>!Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
         </item>
-        <item>FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
-            FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        <item>!Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
         </item>
 
         <item>
-        GG
-        GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+        !Bienvenido!
+            Pulsa sobre los indicadores para ver el detalle del lugar elegido.
+            Podes calcular también la distancia entre tu ubicación actual. !Buen provecho!
         </item>
     </string-array>
-    <string-array name="place_locations">
-        <item>CHCUCHUC</item>
-        <item>Piazza del Capitolo - 50122 Florence</item>
+
+    <string-array name="localizacion_lugar">
+        <item> Lomas de Zamora.
+        </item>
+        <item>Lomas de Zamora</item>
         <item>New York City</item>
         <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
         <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
         <item>Cape Town, South Africa</item>
     </string-array>
 
+
+    <string-array name="nombre_sitios">
+        <item>Establecimiento del Cafe</item>
+        <item>La Tienda del Café</item>
+        <item>Café Martinez</item>
+        <item>Wagon</item>
+        <item>Starbucks</item>
+        <item>Johnny B. Good</item>
+    </string-array>
+
+
     <string-array name="posicionamientos_latitud1">
         <item>-34.762312</item>
-        <item>-34.772312</item>
-        <item>-34.782312</item>
+        <item>-34.764175</item>
+        <item>-34.761838</item>
+        <item>-34.765491</item>
+        <item>-34.765107</item>
+        <item>-34.766525</item>
+
     </string-array>
 
     <string-array name="posicionamientos_longitud1">
         <item>-58.4013941</item>
-        <item>-58.4113941</item>
-        <item>-58.4213941</item>
-    </string-array>
-
-
-
-    <string-array name="cafe">
-        <item>primero</item>
-        <item>segundo</item>
-        <item>tercero</item>
+        <item>-58.401567</item>
+        <item>-58.401444</item>
+        <item>-58.401888</item>
+        <item>-58.401792</item>
+        <item>-58.402299</item>
     </string-array>
 
 
 
 
+    <string-array name="snipet">
+        <item>Excelente Café y Postres.</item>
+        <item>Muy buenos postres y meriendas completas.</item>
+        <item>Buenos Cafes.</item>
+        <item>Buenos desayunos estilo Americano.</item>
+        <item>Los mejores Frapuccinos de la zona</item>
+        <item>Ambientación rockera y muy ricos desayunos</item>
+    </string-array>
 
 
 
+    <string-array name="nombre_sitios_almuerzo">
+        <item>Pertutti</item>
+        <item>Los Cardales</item>
+        <item>Lomas Hot</item>
+        <item>Wagon</item>
+        <item>Tijuana</item>
+        <item>Catas</item>
+    </string-array>
+
+    <string-array name="posicionamientos_latitud2">
+        <item>-34.764048</item>
+        <item>-34.765388</item>
+        <item>-34.763968</item>
+        <item>-34.765491</item>
+        <item>-34.765152</item>
+        <item>-34.764549</item>
+
+    </string-array>
+
+    <string-array name="posicionamientos_longitud2">
+        <item>-58.400346</item>
+        <item>-58.400460</item>
+        <item>-58.401656</item>
+        <item>-58.401888</item>
+        <item>-58.401587</item>
+        <item>-58.401788</item>
+    </string-array>
+
+    <string-array name="snipet2">
+        <item>Muy buena cocina. Variedad de platos gourmet</item>
+        <item>Descata su espectacular parrilla.</item>
+        <item>Gran variedad de pizzas acompañada con futbol.</item>
+        <item>Ricas hamburguesas estilo americanas.</item>
+        <item>Comida Mexicana en Lomas de Zamora.</item>
+        <item>Buenos platos acompañados de un estilo antigüo.</item>
+    </string-array>
+
+
+
+    <string-array name="urls">
+        <item>www.youtube.com.ar</item>
+        <item>https://gamesfull.org/</item>
+        <item>https://www.compucalitv.com/</item>
+    </string-array>
 
     <array name="place_avator">
         <item>@drawable/desayunopng</item>
         <item>@drawable/almuerzopng</item>
         <item>@drawable/meriendapng</item>
+        <item>@drawable/cenapng</item>
+        <item>@drawable/cinepng</item>
+        <item>@drawable/futbolpng</item>
+
 
     </array>
-    <array name="places_picture">
-        <item>@drawable/desayunopng</item>
-        <item>@drawable/almuerzopng</item>
-        <item>@drawable/meriendapng</item>
+    <array name="foto_sitiorecomendado">
+        <item>@drawable/pertuttipng</item>
+        <item>@drawable/loscardalespng</item>
+        <item>@drawable/tiendacafepng</item>
+        <item>@drawable/wagonpng</item>
+        <item>@drawable/cinepng</item>
+        <item>@drawable/futbolpng</item>
 
     </array>
 </resources>

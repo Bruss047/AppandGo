@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="500dp"
+    android:background="@color/colorAccent"
+    android:layout_height="500dp">
+
+
+    <TextView
+        android:layout_width="400dp"
+        android:textColor="@color/colorAccent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:textSize="12dp"
+        android:text="WOLOLOLOLOOOO"/>
+
+    <Button
+        android:id="@+id/pop"
+        android:layout_width="50dp"
+        android:text="Here"
+        android:layout_height="70dp" />
+
+
+</LinearLayout>

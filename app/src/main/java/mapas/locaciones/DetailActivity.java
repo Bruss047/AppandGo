@@ -20,6 +20,8 @@ public class DetailActivity extends AppCompatActivity {
 
         Button button;
 
+
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,16 +33,13 @@ public class DetailActivity extends AppCompatActivity {
         // Set Collapsing Toolbar layout to the screen
         CollapsingToolbarLayout collapsingToolbar =
                 (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        // Set title of Detail page
-        // collapsingToolbar.setTitle(getString(R.string.item_title));
-
 
         final int postion = getIntent().getIntExtra(EXTRA_POSITION, 0);
         Resources resources = getResources();
-        String[] places = resources.getStringArray(R.array.places);
+        String[] places = resources.getStringArray(R.array.items);
         collapsingToolbar.setTitle(places[postion % places.length]);
 
-       final String[] placeDetails = resources.getStringArray(R.array.place_details);
+         final String[] placeDetails = resources.getStringArray(R.array.detalles_lugar);
         TextView placeDetail = (TextView) findViewById(R.id.place_detail);
         placeDetail.setText(placeDetails[postion % placeDetails.length]);
 
@@ -51,11 +50,11 @@ public class DetailActivity extends AppCompatActivity {
         //placeLocation.setText(placeLocations[postion % placeLocations.length]);
 
 
-        String[] placeLocations = resources.getStringArray(R.array.place_locations);
+        String[] placeLocations = resources.getStringArray(R.array.localizacion_lugar);
         TextView placeLocation =  (TextView) findViewById(R.id.place_location);
         placeLocation.setText(placeLocations[postion % placeLocations.length]);
 
-        TypedArray placePictures = resources.obtainTypedArray(R.array.places_picture);
+        TypedArray placePictures = resources.obtainTypedArray(R.array.place_avator);
         ImageView placePicutre = (ImageView) findViewById(R.id.image);
         placePicutre.setImageDrawable(placePictures.getDrawable(postion % placePictures.length()));
 
@@ -67,7 +66,7 @@ public class DetailActivity extends AppCompatActivity {
                 Context context = v.getContext();
 
                 Intent intent = new Intent(context, MapsActivity.class);
-                intent.putExtra("posicion",postion);
+                intent.putExtra("posicion", postion);
                 context.startActivity(intent);
             }
         });

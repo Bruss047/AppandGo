@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
-            app:contentScrim="?attr/colorPrimary"
+            app:contentScrim="?attr/colorPrimaryDark"
             app:expandedTitleMarginEnd="5dp"
             app:expandedTitleMarginStart="@dimen/md_keylines"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -61,7 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="?attr/colorAccent"
-                android:text="Description"
+                android:text="Descripción"
                 android:textSize="15dp"
                 android:layout_marginBottom="@dimen/md_keylines" />
 
@@ -72,24 +72,43 @@
                 tools:text="" />
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="?attr/colorAccent"
-                android:text="Location"
-                android:textSize="15dp"
-                android:layout_marginBottom="@dimen/md_keylines"
-                android:layout_marginTop="@dimen/md_keylines" />
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorAccent"
+            android:text="Zona"
+            android:textSize="15dp"
+            android:layout_marginBottom="@dimen/md_keylines"
+            android:layout_marginTop="@dimen/md_keylines" />
 
             <TextView
                 android:id="@+id/place_location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                tools:text="" />
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="?attr/colorAccent"
+                android:text="Consejo"
+                android:textSize="15dp"
+                android:layout_marginBottom="@dimen/md_keylines"
+                android:layout_marginTop="@dimen/md_keylines" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Para una mejor experiencia, dale 'Ok' al permiso inicial para que el dispositivo pueda acceder a tu ubicación actual."
+                 />
+
 
             <Button
                 android:id="@+id/ir"
-                android:layout_width="60dp"
-                android:layout_height="30dp" />
+                android:text="Sitios"
+                android:layout_centerInParent="true"
+                android:layout_width="90dp"
+                android:layout_height="40dp"/>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

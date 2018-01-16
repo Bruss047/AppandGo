@@ -1,4 +1,5 @@
 <RelativeLayout
+    android:id="@+id/rela"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -17,8 +18,10 @@
     />
 <Button
     android:id="@+id/xj"
-    android:text="Porongueta"
-    android:layout_width="50dp"
-    android:layout_height="50dp" />
+    android:text="Actualizar Interfaz de Ubicación"
+    android:textSize="13dp"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_width="146dp"
+    android:layout_height="wrap_content" />
 
 </RelativeLayout>

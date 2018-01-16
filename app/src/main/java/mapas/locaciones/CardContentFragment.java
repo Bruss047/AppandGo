@@ -57,15 +57,15 @@ public class CardContentFragment extends Fragment {
      */
     public static class ContentAdapter extends RecyclerView.Adapter<ViewHolder> { //SETEA LISTAS
         // Set numbers of List in RecyclerView.
-        private static final int LENGTH = 18;
+        private static final int LENGTH = 5;
         private final String[] mPlaces;
         private final String[] mPlaceDesc;
         private final Drawable[] mPlacePictures;
         public ContentAdapter(Context context) {
             Resources resources = context.getResources();
-            mPlaces = resources.getStringArray(R.array.places);
-            mPlaceDesc = resources.getStringArray(R.array.place_desc);
-            TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+            mPlaces = resources.getStringArray(R.array.recomendaciones);
+            mPlaceDesc = resources.getStringArray(R.array.descripcion_breve);
+            TypedArray a = resources.obtainTypedArray(R.array.foto_sitiorecomendado);
             mPlacePictures = new Drawable[a.length()];
             for (int i = 0; i < mPlacePictures.length; i++) {
                 mPlacePictures[i] = a.getDrawable(i);
